@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtubeclone</title>
+    <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+       crossorigin="anonymous"
+    />
+    <link
+     rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="web_container">
+        <nav class="navbar sticky-top bg-light bg-body-tertiary">
+            <div class="container_fluid mx-4 d-flex w-100 justify-content-between">
+                <div>
+                    <a class="nav-brand" href="#">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <a class="nav-brand" href="#">
+                        <i class="fa-brands fa-youtube"  style="color: red"></i> 
+                    </a>                    
+                </div>
+                <div class="search_container">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholdier="search" aria-label="Dollar amount (with dot and two decimal places)"/>
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </div>
+                    <span class="mic">
+                        <i class="fa-solid fa-microphone"></i>
+                    </span>
+                </div>
+                <div class="d-flex align-item-centre">
+                    <i class="fa-solid fa-video mx-1 p-2"></i>
+                    <i class="fa-solid fa-bell mx-1 p-2"></i>
+                    <img
+                    height="30px"
+                    width="30px"
+                    class="mx-1 rounded circle"
+                    src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww"
+                    />
+            </div>
+
+        </div>
+      </nav>
+      <!--body-section-->
+      <div class="row body_container px-3">
+        <div class="col-2 menu_container border-end">
+            <div class="d-flex align-items-centre p-1 icon_row">
+            <i class="fa-solid fa-house"></i>
+            <span class="lead ps-3 fw-medium">HOME</span>
+            </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+              <i class="fa-solid fa-music"></i>
+            <span class="lead ps-3 fw-medium">MUSIC</span>
+            </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+             <i class="fa-solid fa-calendar-days"></i>
+            <span class="lead ps-3 fw-medium">CALENDAR</span>
+            </div>
+            <hr>
+            <div class="d-flex align-items-centre p-1 icon_row">
+             <i class="fa-solid fa-face-smile"></i>
+             <span class="lead ps-3 fw-medium">FACE</span>
+              </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+            <i class="fa-solid fa-filter"></i>
+            <span class="lead ps-3 fw-medium">FILTER</span>
+            </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-mug-hot"></i>
+            <span class="lead ps-3 fw-medium">TEA</span>
+            </div>          
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-film"></i>
+            <span class="lead ps-3 fw-medium">FILM</span>
+            </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-lock"></i>
+             <span class="lead ps-3 fw-medium">LOCK</span>
+             </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-umbrella"></i>
+                 <span class="lead ps-3 fw-medium">UMERALLA</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-camera"></i>
+                <span class="lead ps-3 fw-medium">CAMERA</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-brands fa-windows"></i>
+              <span class="lead ps-3 fw-medium">WINDOW</span>
+              </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-brands fa-dribbble"></i>
+                <span class="lead ps-3 fw-medium">BALLS</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-plus"></i>
+                 <span class="lead ps-3 fw-medium">PLUS</span>
+                 </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-eye"></i>
+                <span class="lead ps-3 fw-medium">EYE</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span class="lead ps-3 fw-medium">THUMB UP</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-brands fa-dropbox"></i>
+                <span class="lead ps-3 fw-medium">DROP</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-code"></i>
+                <span class="lead ps-3 fw-medium">CODE</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-sliders"></i>
+                <span class="lead ps-3 fw-medium">SLIDER</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-brands fa-android"></i>
+                <span class="lead ps-3 fw-medium">ANDROID</span>
+                </div>
+                <hr>          
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-briefcase"></i>
+                <span class="lead ps-3 fw-medium">briefcase</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-handshake"></i>
+                 <span class="lead ps-3 fw-medium">shakehand</span>
+                 </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-paperclip"></i>
+                <span class="lead ps-3 fw-medium">Attached</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-car"></i>
+                <span class="lead ps-3 fw-medium">CAR</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-bolt"></i>
+              <span class="lead ps-3 fw-medium">bolt</span>
+              </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-gear"></i>
+                <span class="lead ps-3 fw-medium">gear</span>
+                </div>
+            <div class="d-flex align-items-centre p-1 icon_row">
+                <i class="fa-solid fa-gift"></i>
+                <span class="lead ps-3 fw-medium">gift</span>            
+                </div>
+                <div class="d-flex align-items-centre p-1 icon_row">
+                  <i class="fa-solid fa-music"></i>
+                <span class="lead ps-3 fw-medium">MUSIC</span>
+                </div>
+                <div class="d-flex align-items-centre p-1 icon_row">
+                    <i class="fa-solid fa-cloud"></i>
+                <span class="lead ps-3 fw-medium">COMPUTER PROGRAMMING</span>
+                </div>
+                <div class="d-flex align-items-centre p-1 icon_row">
+                    <i class="fa-solid fa-arrow-up"></i>
+                <span class="lead ps-3 fw-medium">HTML</span>
+                </div>
+                <div class="d-flex align-items-centre p-1 icon_row">
+                    <i class="fa-solid fa-shield-halved"></i>
+                <span class="lead ps-3 fw-medium">CSS</span>
+                </div>
+                <div class="d-flex align-items-centre p-1 icon_row">
+                    <i class="fa-solid fa-pen-nib"></i>
+                <span class="lead ps-3 fw-medium">JAVASCRIPT</span>
+                </div>
+                <div class="d-flex align-items-centre p-1 icon_row">
+                    <i class="fa-solid fa-paperclip"></i>
+                <span class="lead ps-3 fw-medium">MANGO-DB</span>
+                </div>                
+               </div>
+               
+            
+            <div class="col-10 video_container">
+                <div class="chips_container d-flex overflow-x-scroll my-2">
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded">ALL</span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        TV
+                    </span>                    
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        ENTERTAINMENT
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        SONGS
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        NAAT 
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        DRAMAS
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        MOVIES
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        HORRIABLE MOVIES
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        SERIALS
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        CLASSICAL
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        LOVESTORY MOVIE
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        ACTORS
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        PRODUCTION
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        ADVERTISEMENT
+                    </span><span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        USER
+                    </span>
+                    <span class="bg-secondary-subtitle px-3 py-1 rounded ms-2">
+                        NEW SONGS
+                    </span>
+                   </div>
+                   
+                  
+          
+
+                   <div class="video_cards row row-cols-1 row-md-cols-2 row-lg-cols-3 row-xl-cols-4 justify-content-around">
+                    <div class="card my-2" style="width: 20rem">
+                        <img 
+                        src="https://i.ytimg.com/vi/cL819RudHZg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWZuOnwW90DWi75w9aTgV6h4IipA"
+                        class="card-img-top"
+                        alt="..."
+                        />
+                    <div class="card-body">
+                        <h5 class="card-title">TAHIR QADRI</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk on the cards & content
+                        </p>
+                        <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                        </div>
+                        </div>
+                        <div class="card my-2" style="width: 20rem">
+                            <img 
+                            src="https://i.ytimg.com/vi/QpcseIAfGHs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmJEWwwf-ZlB4pedOuHbc2ulBSFA"               class="card-img-top"
+                            alt="..."
+                            />
+                        <div class="card-body">
+                            <h5 class="card-title">OVAIS QADRI</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk on the cards & content
+                            </p>
+                            <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                            </div>
+                            </div>
+                            <div class="card my-2" style="width: 20rem">
+                              <img 
+                              src="https://i.ytimg.com/vi/cL819RudHZg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWZuOnwW90DWi75w9aTgV6h4IipA"               class="card-img-top"
+                              alt="..."
+                              />
+                          <div class="card-body">
+                              <h5 class="card-title">TAHIR QADRI</h5>
+                              <p class="card-text">
+                                  Some quick example text to build on the card title and make up the bulk on the cards & content
+                              </p>
+                              <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                              </div>
+                              </div>
+                              <div class="card my-2" style="width: 20rem">
+                                <img 
+                                src="https://i.ytimg.com/vi/QpcseIAfGHs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmJEWwwf-ZlB4pedOuHbc2ulBSFA"               class="card-img-top"
+                                alt="..."
+                                />
+                            <div class="card-body">
+                                <h5 class="card-title">OVAIS QADRI</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk on the cards & content
+                                </p>
+                                <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                </div>
+                                </div>
+                                <div class="card my-2" style="width: 20rem">
+                                  <img 
+                                  src="https://i.ytimg.com/vi/cL819RudHZg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWZuOnwW90DWi75w9aTgV6h4IipA"  class="card-img-top"
+                                  alt="..."
+                                  />
+                              <div class="card-body">
+                                  <h5 class="card-title">TAHIR QADRI</h5>
+                                  <p class="card-text">
+                                      Some quick example text to build on the card title and make up the bulk on the cards & content
+                                  </p>
+                                  <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                  </div>
+                                  </div>
+
+                                  <div class="card my-2" style="width: 20rem">
+                                    <img 
+                                    src="https://i.ytimg.com/vi/QpcseIAfGHs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmJEWwwf-ZlB4pedOuHbc2ulBSFA" 
+                                    class="card-img-top"
+                                    alt="..."
+                                    />
+                                <div class="card-body">
+                                    <h5 class="card-title">OVAIS QADRI</h5>
+                                    <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk on the cards & content
+                                    </p>
+                                    <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                    </div>
+                                    </div>
+                                    <div class="card my-2" style="width: 20rem">
+                                      <img 
+                                      src="https://i.ytimg.com/vi/cL819RudHZg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWZuOnwW90DWi75w9aTgV6h4IipA"
+                                      class="card-img-top"
+                                      alt="..."
+                                      />
+                                  <div class="card-body">
+                                      <h5 class="card-title">TAHIR QADRI</h5>
+                                      <p class="card-text">
+                                          Some quick example text to build on the card title and make up the bulk on the cards & content
+                                      </p>
+                                      <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                      </div>
+                                      </div>
+                                      <div class="card my-2" style="width: 20rem">
+                                        <img 
+                                        src="https://i.ytimg.com/vi/QpcseIAfGHs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmJEWwwf-ZlB4pedOuHbc2ulBSFA"
+                                         class="card-img-top"
+                                        alt="..."
+                                        />
+                                    <div class="card-body">
+                                        <h5 class="card-title">OVAIS QADRI</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk on the cards & content
+                                        </p>
+                                        <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                        </div>
+                                        </div>
+                                        <div class="card my-2" style="width: 20rem">
+                                          <img 
+                                          src="https://i.ytimg.com/vi/cL819RudHZg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWZuOnwW90DWi75w9aTgV6h4IipA"               class="card-img-top"
+                                          alt="..."
+                                          />
+                                      <div class="card-body">
+                                          <h5 class="card-title">TAHIR QADRI</h5>
+                                          <p class="card-text">
+                                              Some quick example text to build on the card title and make up the bulk on the cards & content
+                                          </p>
+                                          <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                          </div>
+                                          </div>
+                                          <div class="card my-2" style="width: 20rem">
+                                            <img 
+                                            src="https://i.ytimg.com/vi/QpcseIAfGHs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmJEWwwf-ZlB4pedOuHbc2ulBSFA"               class="card-img-top"
+                                            alt="..."
+                                            />
+                                        <div class="card-body">
+                                            <h5 class="card-title">OVAIS QADRI</h5>
+                                            <p class="card-text">
+                                                Some quick example text to build on the card title and make up the bulk on the cards & content
+                                            </p>
+                                            <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                            </div>
+                                            </div>
+                                            <div class="card my-2" style="width: 20rem">
+                                              <img 
+                                              src="https://i.ytimg.com/vi/cL819RudHZg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWZuOnwW90DWi75w9aTgV6h4IipA"
+                                               class="card-img-top"
+                                              alt="..."
+                                              />
+                                          <div class="card-body">
+                                              <h5 class="card-title">TAHIR QADRI</h5>
+                                              <p class="card-text">
+                                                  Some quick example text to build on the card title and make up the bulk on the cards & content
+                                              </p>
+                                              <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                              </div>
+                                              </div>
+                                              <div class="card my-2" style="width: 20rem">
+                                                <img 
+                                                src="https://i.ytimg.com/vi/QpcseIAfGHs/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmJEWwwf-ZlB4pedOuHbc2ulBSFA"               class="card-img-top"
+                                                alt="..."
+                                                />
+                                            <div class="card-body">
+                                                <h5 class="card-title">OVAIS QADRI</h5>
+                                                <p class="card-text">
+                                                    Some quick example text to build on the card title and make up the bulk on the cards & content
+                                                </p>
+                                                <a href="#" class="btn btn-primary">GO SOME WHERE</a>
+                                                </div>
+                                                </div>
+                                                                                                  
+      
+                      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+                      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+                      crossorigin="anonymous">
+                     </script>
+                     </body>
+                 </html>
